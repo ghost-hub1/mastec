@@ -1,0 +1,486 @@
+.divide0, .divide-xs-0 {
+    width: 100%;
+    display: block;
+    height: 0;
+}
+
+.divide2, .divide-xs-2 {
+    width: 100%;
+    display: block;
+    height: 2px;
+}
+
+.divide3, .divide-xs-3 {
+    width: 100%;
+    display: block;
+    height: 3px;
+}
+
+.divide5, .divide-xs-5 {
+    width: 100%;
+    display: block;
+    height: 5px;
+}
+
+.divide10, .divide-xs-10 {
+    width: 100%;
+    display: block;
+    height: 10px;
+}
+
+.divide15, .divide-xs-15 {
+    width: 100%;
+    display: block;
+    height: 15px;
+}
+
+.divide20, .divide-xs-20 {
+    width: 100%;
+    display: block;
+    height: 20px;
+}
+
+.divide25, .divide-xs-25 {
+    width: 100%;
+    display: block;
+    height: 25px;
+}
+
+.divide30, .divide-xs-30 {
+    width: 100%;
+    display: block;
+    height: 30px;
+}
+
+.divide35, .divide-xs-35 {
+    width: 100%;
+    display: block;
+    height: 35px;
+}
+
+.divide40, .divide-xs-40 {
+    width: 100%;
+    display: block;
+    height: 40px;
+}
+
+.divide45, .divide-xs-45 {
+    width: 100%;
+    display: block;
+    height: 40px;
+}
+
+.divide50, .divide-xs-50 {
+    width: 100%;
+    display: block;
+    height: 50px;
+}
+
+.divide55, .divide-xs-55 {
+    width: 100%;
+    display: block;
+    height: 55px;
+}
+
+.divide60, .divide-xs-60 {
+    width: 100%;
+    display: block;
+    height: 60px;
+}
+
+.divide65, .divide-xs-65 {
+    width: 100%;
+    display: block;
+    height: 65px;
+}
+
+.divide70, .divide-xs-70 {
+    width: 100%;
+    display: block;
+    height: 70px;
+}
+
+.divide75, .divide-xs-75 {
+    width: 100%;
+    display: block;
+    height: 75px;
+}
+
+.divide80, .divide-xs-80 {
+    width: 100%;
+    display: block;
+    height: 80px;
+}
+
+.divide85, .divide-xs-85 {
+    width: 100%;
+    display: block;
+    height: 85px;
+}
+
+@media(min-width:768px) {
+    .divide-sm-0 {
+        width: 100%;
+        display: block;
+        height: 0;
+    }
+
+    .divide-sm-2 {
+        width: 100%;
+        display: block;
+        height: 2px;
+    }
+
+    .divide-sm-3 {
+        width: 100%;
+        display: block;
+        height: 3px;
+    }
+
+    .divide-sm-5 {
+        width: 100%;
+        display: block;
+        height: 5px;
+    }
+
+    .divide-sm-10 {
+        width: 100%;
+        display: block;
+        height: 10px;
+    }
+
+    .divide-sm-15 {
+        width: 100%;
+        display: block;
+        height: 15px;
+    }
+
+    .divide-sm-20 {
+        width: 100%;
+        display: block;
+        height: 20px;
+    }
+
+    .divide-sm-25 {
+        width: 100%;
+        display: block;
+        height: 25px;
+    }
+
+    .divide-sm-30 {
+        width: 100%;
+        display: block;
+        height: 30px;
+    }
+
+    .divide-sm-35 {
+        width: 100%;
+        display: block;
+        height: 35px;
+    }
+
+    .divide-sm-40 {
+        width: 100%;
+        display: block;
+        height: 40px;
+    }
+
+    .divide-sm-45 {
+        width: 100%;
+        display: block;
+        height: 40px;
+    }
+
+    .divide-sm-50 {
+        width: 100%;
+        display: block;
+        height: 50px;
+    }
+
+    .divide-sm-55 {
+        width: 100%;
+        display: block;
+        height: 55px;
+    }
+
+    .divide-sm-60 {
+        width: 100%;
+        display: block;
+        height: 60px;
+    }
+
+    .divide-sm-65 {
+        width: 100%;
+        display: block;
+        height: 65px;
+    }
+
+    .divide-sm-70 {
+        width: 100%;
+        display: block;
+        height: 70px;
+    }
+
+    .divide-sm-75 {
+        width: 100%;
+        display: block;
+        height: 75px;
+    }
+
+    .divide-sm-80 {
+        width: 100%;
+        display: block;
+        height: 80px;
+    }
+
+    .divide-sm-85 {
+        width: 100%;
+        display: block;
+        height: 85px;
+    }
+}
+
+@media(min-width:992px) {
+    .divide-md-0 {
+        width: 100%;
+        display: block;
+        height: 0;
+    }
+
+    .divide-md-2 {
+        width: 100%;
+        display: block;
+        height: 2px;
+    }
+
+    .divide-md-3 {
+        width: 100%;
+        display: block;
+        height: 3px;
+    }
+
+    .divide-md-5 {
+        width: 100%;
+        display: block;
+        height: 5px;
+    }
+
+    .divide-md-10 {
+        width: 100%;
+        display: block;
+        height: 10px;
+    }
+
+    .divide-md-15 {
+        width: 100%;
+        display: block;
+        height: 15px;
+    }
+
+    .divide-md-20 {
+        width: 100%;
+        display: block;
+        height: 20px;
+    }
+
+    .divide-md-25 {
+        width: 100%;
+        display: block;
+        height: 25px;
+    }
+
+    .divide-md-30 {
+        width: 100%;
+        display: block;
+        height: 30px;
+    }
+
+    .divide-md-35 {
+        width: 100%;
+        display: block;
+        height: 35px;
+    }
+
+    .divide-md-40 {
+        width: 100%;
+        display: block;
+        height: 40px;
+    }
+
+    .divide-md-45 {
+        width: 100%;
+        display: block;
+        height: 40px;
+    }
+
+    .divide-md-50 {
+        width: 100%;
+        display: block;
+        height: 50px;
+    }
+
+    .divide-md-55 {
+        width: 100%;
+        display: block;
+        height: 55px;
+    }
+
+    .divide-md-60 {
+        width: 100%;
+        display: block;
+        height: 60px;
+    }
+
+    .divide-md-65 {
+        width: 100%;
+        display: block;
+        height: 65px;
+    }
+
+    .divide-md-70 {
+        width: 100%;
+        display: block;
+        height: 70px;
+    }
+
+    .divide-md-75 {
+        width: 100%;
+        display: block;
+        height: 75px;
+    }
+
+    .divide-md-80 {
+        width: 100%;
+        display: block;
+        height: 80px;
+    }
+
+    .divide-md-85 {
+        width: 100%;
+        display: block;
+        height: 85px;
+    }
+}
+
+@media(min-width:1200px) {
+    .divide-lg-0 {
+        width: 100%;
+        display: block;
+        height: 0;
+    }
+
+    .divide-lg-2 {
+        width: 100%;
+        display: block;
+        height: 2px;
+    }
+
+    .divide-lg-3 {
+        width: 100%;
+        display: block;
+        height: 3px;
+    }
+
+    .divide-lg-5 {
+        width: 100%;
+        display: block;
+        height: 5px;
+    }
+
+    .divide-lg-10 {
+        width: 100%;
+        display: block;
+        height: 10px;
+    }
+
+    .divide-lg-15 {
+        width: 100%;
+        display: block;
+        height: 15px;
+    }
+
+    .divide-lg-20 {
+        width: 100%;
+        display: block;
+        height: 20px;
+    }
+
+    .divide-lg-25 {
+        width: 100%;
+        display: block;
+        height: 25px;
+    }
+
+    .divide-lg-30 {
+        width: 100%;
+        display: block;
+        height: 30px;
+    }
+
+    .divide-lg-35 {
+        width: 100%;
+        display: block;
+        height: 35px;
+    }
+
+    .divide-lg-40 {
+        width: 100%;
+        display: block;
+        height: 40px;
+    }
+
+    .divide-lg-45 {
+        width: 100%;
+        display: block;
+        height: 40px;
+    }
+
+    .divide-lg-50 {
+        width: 100%;
+        display: block;
+        height: 50px;
+    }
+
+    .divide-lg-55 {
+        width: 100%;
+        display: block;
+        height: 55px;
+    }
+
+    .divide-lg-60 {
+        width: 100%;
+        display: block;
+        height: 60px;
+    }
+
+    .divide-lg-65 {
+        width: 100%;
+        display: block;
+        height: 65px;
+    }
+
+    .divide-lg-70 {
+        width: 100%;
+        display: block;
+        height: 70px;
+    }
+
+    .divide-lg-75 {
+        width: 100%;
+        display: block;
+        height: 75px;
+    }
+
+    .divide-lg-80 {
+        width: 100%;
+        display: block;
+        height: 80px;
+    }
+
+    .divide-lg-85 {
+        width: 100%;
+        display: block;
+        height: 85px;
+    }
+}
+

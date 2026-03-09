@@ -1,0 +1,151 @@
+.texture-bg {
+	position: absolute;
+	background-image: url('../img/topographic-pattern.png');
+	background-size: cover;
+	mix-blend-mode: multiply;
+	z-index: 1;
+}
+.ukg--card {
+  margin-top: 58px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.ukg--box {
+  background: #EFEEEE;
+  padding: 15px;
+}
+.ukg--box .card {
+  max-width: 600px;
+  width: 100%;
+  padding: 15px;
+}
+.ukg--box .title {
+  color: #000;
+  font-weight: bold;
+  margin-top: 0;
+}
+.ukg--box .btn {
+  padding: 10px;
+  font-weight: 100;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.ukg--box .btn-primary {
+  background-color: #3471AE;
+  border-color: #3471AE;
+  color: #fff;
+}
+.ukg--box .btn-primary:active:hover {
+  background-color: #285e94;
+  border-color: #285e94;
+}
+.ukg--box .btn-primary:focus, .ukg--box .btn-success:focus {
+  box-shadow: none;
+  outline: none;
+}
+.ukg--box .then {
+  color: #000;
+}
+.ukg--box .btn-success {
+  background-color: #214F50;
+  border-color: #214F50;
+  color: #fff;
+}
+.ukg--box .btn-success:active:hover {
+  background-color: #1c5657;
+  border-color: #1c5657;
+}
+#home-banner {
+  min-height: 100vh;
+  height: auto;
+}
+#home-banner .texture-bg {
+  height: 100vh;
+  min-height: 100vh;
+}
+@media (min-width: 730px) and (max-height: 479px) {
+  #home-banner, #home-banner .banner-item, #home-banner .banner-image, #home-banner .texture-bg {
+    min-height: unset;
+  }
+}
+#home-banner, #home-banner .banner-item {
+  height: auto;
+}
+.relative {
+  position: relative !important;
+}
+.z-2 {
+  z-index: 2 !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.justify-center {
+  justify-content: center !important;
+}
+.items-center {
+  align-items: center !important;
+}
+@media (max-width:1920px) {
+  .ukg--box .then {
+    font-size: max(16px, 0.833vw);
+    line-height: max(21px, 1.094vw);
+    padding-top: max(15px, 0.781vw);
+    padding-bottom: max(15px, 0.781vw);
+  }
+  .ukg--box .btn {
+    font-size: max(14px, 1.042vw);
+    line-height: max(21px, 1.094vw);
+  }
+  .ukg--box .title {
+    font-size: max(24px, 1.667vw);
+    line-height: max(32px, 2.188vw);
+    margin-bottom: max(20px, 1.042vw);
+  }
+  .ukg--box .logo {
+    margin-bottom: max(30px, 1.563vw);
+  }
+  .ukg--box .logo img {
+    width: max(220px, 4.167vw);
+  }
+}
+@media (max-width:767px) {
+  .ukg--box {
+    width: 90vw;
+    min-width: 280px;
+  }
+  .ukg--box .then {
+    padding: 0;
+  }
+  .ukg--box .logo img {
+    width: max(120px, 4.167vw);
+  }
+}
+@media (min-width:768px) {
+  .ukg--box .card {
+    padding: 62px 63px;
+    width: 600px;
+    max-width: unset;
+  }
+  .ukg--card {
+    margin-top: 87px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .ukg--box {
+    padding: 25px;
+  }
+}
+@media (min-width:1350px) {
+  .ukg--card {
+    margin-top: 124px;
+  }
+  .ukg--box .btn {
+    padding: 19px;
+  }
+}
