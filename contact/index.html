@@ -83,6 +83,26 @@
       gtag("js", new Date());
       gtag("config", "G-7CZDBX2GXY");
     </script>
+    <style>
+
+      .checkbox-flex {
+  display: flex;
+  align-items: flex-start; /* aligns checkbox with first line */
+  gap: 10px;
+}
+
+.checkbox-flex input[type="checkbox"] {
+  margin-top: 4px; /* fine tune alignment */
+  flex-shrink: 0; /* prevents checkbox from shrinking */
+}
+
+.sms-consent-label {
+  margin: 0;
+  line-height: 1.5;
+  display: block;
+}
+      
+    </style>
   </head>
 
   
@@ -773,17 +793,29 @@
                   </div>
 
                     <div class="form-row form-row--checkbox" id="content_853d705cd2aaae43a5823f290d390e04_form-row-sms_consent">
-              <div class="form-row__controls">
-                <div class="form-checkbox">
-                  <input type="checkbox" name="sms_consent" id="content_853d705cd2aaae43a5823f290d390e04_field_sms_consent" value="1">
-                  <label for="content_853d705cd2aaae43a5823f290d390e04_field_sms_consent" class="sms-consent-label"> By submitting this form, you agree to receive SMS messages from Mastec Inc. Message frequency varies. Message and data rates may apply. Reply STOP to opt out. You will receive no further messages after opting out. For More information, please refer to our
-                    <a href="https://themastec.com/privacy" target="_blank">(privacy policy)</a>, and SMS
-                    <a href="https://themastec.com/terms" target="_blank">(terms and conditions)</a>
-                    on our website.
-                  </label>
-                </div>
-              </div>
-            </div>
+  <div class="form-row__controls">
+    <div class="form-checkbox checkbox-flex">
+
+      <input 
+        type="checkbox" 
+        name="sms_consent" 
+        id="content_853d705cd2aaae43a5823f290d390e04_field_sms_consent" 
+        value="1"
+      >
+
+      <label 
+        for="content_853d705cd2aaae43a5823f290d390e04_field_sms_consent" 
+        class="sms-consent-label"
+      >
+        By submitting this form, you agree to receive SMS messages from Mastec Inc. Message frequency varies. Message and data rates may apply. Reply STOP to opt out. You will receive no further messages after opting out. For More information, please refer to our
+        <a href="https://themastec.com/privacy" target="_blank">(privacy policy)</a>, and SMS
+        <a href="https://themastec.com/terms" target="_blank">(terms and conditions)</a>
+        on our website.
+      </label>
+
+    </div>
+  </div>
+</div>
 
 
 
